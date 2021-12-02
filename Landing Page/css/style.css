@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poppins", sans-serif;
+}
+
+p,
+li,
+a {
+  font-family: "Montserrat", sans-serif;
+  line-height: 150%;
+  font-size: 16px;
+}
+
+li,
+i {
+  font-size: 16px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 25px;
+  color: rgb(250, 250, 250);
+}
+h2 {
+  font-size: 25px;
+  color: solid black;
+}
+
+.mainbox {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  height: 100%;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.description {
+  width: 100%;
+  padding: 25px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 25px;
+}
+
+.dp_title {
+  margin-bottom: 20px;
+}
+
+.pp {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  margin-left: 150px;
+}
